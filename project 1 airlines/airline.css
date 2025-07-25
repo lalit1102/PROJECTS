@@ -1,0 +1,447 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.box {
+    height: 210vh;
+    width: 90vw;
+    /* border: 2px solid black; */
+    margin: 15px;
+}
+header {
+   background-color: rgb(55, 56, 56);
+   margin: 0px 20px;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding:0 30px;
+}
+.branding {
+    padding-right: 50px;
+    
+}
+.logo {
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+.logo .air {
+    color: blue;      
+}
+.logo .lines {
+    color:black;    
+}
+.slogan {
+    font-size: 0.9rem;
+    letter-spacing: 1px;
+    margin-top: 4px;
+    color: #aaa;
+    text-transform: uppercase;
+}
+.navbar-list {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    position: relative;
+    /* top: 5px; */
+}
+
+.icons {
+    color: white;
+    display: flex;
+    gap:20px;
+    position: absolute;
+    top: 3px;
+    right: 28px;
+}
+.navbar {
+    display: flex;
+    gap: 20px;  
+}
+.navbar a  {
+    text-decoration: none;
+    color: white;
+    padding: 25px;
+    font-size: 20px;
+}
+
+.navbar a:hover {
+            background-color:#aaa;
+            height: 10px;
+            border-radius: 30%;
+            color: indigo;
+            font-size:large;
+}
+.navbar-list .icons i:hover {
+    background-color: burlywood;
+    color: #f0f0f0;
+    font-size: 36px;
+}
+.aeroplain {
+    height: 500px;
+    width: 85vw;
+    border: 2px solid red;
+    margin-left: 35px;
+    background-image: url(254367.webp);
+    background-size: cover;
+}
+.container {
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    position: relative;
+    
+}
+.container .blurred   {
+        margin-top: 10px;
+        border-radius: 50%;     
+}
+.header-text {
+    font-size: 36px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    color: #f0f0f0;
+    text-align: center;    
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top:150px;
+    left:120px
+
+
+}
+.subheader-text {
+    font-size: 36px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, 
+    sans-serif ;
+    color: #f0f0f0;
+    text-align: center;    
+    padding: 20px;
+    position: absolute;
+    top: 200px;
+    left: 220px;
+}
+.airline-text {
+    width: 200px;
+    color: white;
+    position: absolute;
+    top:270px;
+    left:150px;
+}
+.ccc {
+    display: flex;
+    
+}
+
+
+.box2 {
+    height: 900px;
+    width: 30vw;
+    border: 1px solid green;
+    margin: 0 35px;
+    font-family: Arial, sans-serif; 
+    background-color: #f0f0f0;
+    margin-top: 5px;
+}
+.ticket-online {
+    width: 20vw;
+    margin-left: 50px;
+    position: relative;
+    bottom:12px
+
+}
+.order {
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+.planner {
+    text-align: center;
+    margin-bottom: 10px;
+    
+}
+
+.radio-group {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+            
+  
+  padding-left: 15px;
+}
+
+
+.radio-group label {
+  display: flex;
+  align-items: center;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.radio-group input[type="radio"] {
+  margin-right: 6px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+/* Labels on top */
+.form-group label {
+  display: block;
+  
+  font-weight: 600;
+  color: #333;
+  margin:5px 10px;
+}
+
+
+.form-group input[type="text"] {
+  display: block;
+  width: 80%;
+  margin: 0 20px;
+  padding: 10px 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-size: 16px;
+  transition: border-color 0.2s;
+}
+
+.form-group input[type="text"]:focus {
+  border-color: #007bff;
+  outline: none;
+}
+.form-group input[type="datetime-local"] {
+    display: block;
+    width: 80%; 
+    margin: 0 20px;
+    padding: 10px 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 16px;
+    transition: border-color 0.2s;
+}
+
+.form-group input::placeholder {
+  color: #999;
+  font-style: italic;
+}
+.pass {
+    display: flex;
+    align-items: center; 
+}
+.pass input {
+    flex-grow: 1; 
+    margin-right: 10px; 
+}
+.form-group .btn {
+    background-color: #007bff;
+    color:white;
+    border: 1px solid black;
+    float: right;
+    border-radius: 5px;
+    font-size: 20px;
+    padding: 10px;
+    margin: 10px 20px;
+    cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease, box-shadow 0.2s ease;
+}
+.form-group .btn:hover {
+  background-color: #0056b3;       
+  transform: translateY(-2px);      
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2); 
+}
+
+h2 {
+    font-size: 24px;
+    margin: 20px 0;
+    text-align: center;
+    color: #333;
+    font-family:sans-serif;
+}
+
+.news-item {
+    color: rgba(12, 97, 233, 0.844);
+    border: 1px solid #ddd; 
+    border-radius: 4px; 
+    padding: 10px; 
+    margin: 10px 0;
+    transition: background-color 0.3s; 
+}
+
+.news-date {
+    font-size: 12px; 
+    color: #888; 
+    display: block; 
+    margin-top: 5px; 
+}
+.box3 {
+    margin: 5px;
+    width: 53vw;
+    height: 900px;
+    background-color: #ddd;
+    border: 1px solid green;
+    
+} 
+.intro h1 {
+    /* text-align: center;/ */
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding :15px 20px;
+    font-size: 36px;
+    
+}
+.intro p {
+    padding: 20px;
+    color: #0056b3;
+    font-family: 'Alumni Sans';
+    font-size: 22px;
+}
+.services {
+    margin-left: 20px;
+    padding: 20px;
+}
+.services li {
+    font-size: 22px;
+    font-family: 'Alumni Sans';
+    color: rgba(0, 0, 0, 0.77);
+}
+.services .rgt-btn {
+    padding: 10px;
+    margin-top: 5px;
+    float: right;
+    background-color: #333;
+    color: #ccc;
+}
+.services .btn-group {
+    float: right;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.services .btn-group .btn {
+    background-color: #333;
+    color: #ccc;
+    padding: 10px;
+    margin-right: 10px;
+}
+.services .btn-group .primary {
+    background-color:  #007bff;
+}
+
+.test1 h3 {
+    font-size: 34px;
+    font-family:'Alumni Sans';
+    color: rgba(0, 0, 0, 0.77);
+    margin: 20px;
+    padding: 10px;
+}
+.test-content {
+        margin-left: 20px;
+        
+        
+       
+}
+.test-content .client-text p {
+       width: 380px;
+       /* height: 200px; */
+       letter-spacing: 1px;
+       /* word-spacing: 1px; */
+       line-height: 23px;
+       font-size: 20px;
+       
+}
+.client-test p {
+    background-color: #007bff;
+    width: 17vw;
+    height: 215px;
+    font-size: 22px;
+    position: relative;
+    bottom: 223px;
+    left: 450px;
+    border-radius: 10px;
+       cursor: pointer;
+ transition: background-color 0.3s ease, 
+transform 0.2s ease, box-shadow 0.2s 
+ease;
+}
+.client-test p:hover {
+     background-color: #0056b3;       
+ transform: translateY(-2px);      
+ box-shadow: 0 4px 10px rgba(0,0,0,0.
+2); 
+}
+
+
+.client-name  {
+    color:white;
+}
+footer {
+    width: 90vw;
+    margin: 15px;
+  padding-top: 10px;
+  background-color: black;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+footer a {
+  text-decoration: none;
+  color: #007bff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

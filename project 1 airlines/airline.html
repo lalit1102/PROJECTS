@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>project-Airlines</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="airline.css">
+  </head>
+  <body>
+  <div class="box">
+         <header>
+              <div class="branding">
+                <div class="logo">
+                  <span class="air">AIR</span>
+                  <span class="lines">LINES</span>
+                </div>
+                <div class="slogan">INTERNATIONALTRAVELS</div>
+              </div>
+                  <div class="navbar-list">
+                        <div class="icons">
+                          <span><a href="home.html"><i class="fa-solid fa-house"  style="color:white"></i></a></span>
+                          <span><a href="https://mail.google.com/mail"><i class="fa-regular fa-envelope"style="color:white"></i></a></span>
+                          <span><a href="login.html"><i class="fa-solid fa-bars" style="color:white"></i></a></span>
+                        </div>
+                        <nav class="navbar">
+                          <a href="home.html" target="_blank">Home</a>
+                          <a href="ouraircraft.html" target="_blank">Our Aircraft</a>
+                          <a href="safety.html" target="_blank">Safety</a>
+                          <a href="charters.html" target="_blank">Charters</a>
+                          <a href="contact.html" target="_blank">Contacts</a>
+                        </nav>
+                      </div>
+            </header>
+      <main>          
+        <div class="aeroplain  ">
+          <div class="container">
+            <marquee behavior="scroll" direction="left" scrollamount="10">
+              <img src="sky.avif" width="200" height="150" alt="Moving image" class="blurred">
+            </marquee>
+            <div class="header-text">COMFORT</div>
+            <div class="subheader-text">Guaranteed</div>
+            <div class="airline-text">An airline is a company that provides a regular service of air transportion for passengers or freight (cargo). Airlines use aircraft to supply these services. Many passenger airlines also carry cargo in the belly of their aircraft, while dedicated cargo airlines focus solely on freight transport. </div>
+          </div>
+        </div>
+
+      <div class="ccc"> 
+                  <div class="box2">
+                          <div class="ticket-online">
+                            <div class="order">
+                              <spanp>ORDER TICKET ONLINE</spanp>
+                             </div>
+                          </div>
+                          <h2 class="planner">Your Flight Planner</h2>
+                        <div class="form-group radio-group">
+                          <label><input type="radio" name="trip_type" value="round_trip" checked> Round Trip</label>
+                          <label><input type="radio" name="trip_type" value="one_way"> One Way</label>
+                          <label><input type="radio" name="trip_type" value="empty_leg"> Empty-Leg</label>
+                          <label><input type="radio" name="trip_type" value="multi_leg"> Multi-Leg</label>
+                        </div>
+                      
+                        <div class="form-group">
+                          <label for="leaving_from">Leaving From</label>
+                          <input type="text" id="leaving_from" placeholder="Enter City or Airport Code">
+                        </div>
+                      
+                        <div class="form-group">
+                          <label for="going_to">Going To</label>
+                          <input type="text" id="going_to" placeholder="Enter City or Airport Code">
+                        </div>
+                      
+                        <div class="form-group">
+                          <label for="departure_date">Departure Date and Time</label>
+                          <input type="datetime-local" name="departure_date" id="departure_date" required>
+                        </div>
+                      
+                        <div class="form-group">
+                          <label for="return_date">Return Date and Time</label>
+                          <input type="datetime-local" name="return_date" id="return_date" required>
+                        </div>
+                      
+                      
+                        <div class="form-group">
+                          <label for="passengers">Passenger(s):</label>
+                          <div class="pass">
+                              <input type="text" id="passengers" placeholder=" passengers">
+                              <button class="btn">GO!</button>
+                          </div>
+                        </div>
+                      
+                         <h2>Recent News</h2>
+                        <div class="news-item">
+                         Tragic Plane Crash<br>
+                          <span class="news-date">july 24, 2024</span>
+                        </div>
+                        <div class="news-item">
+                          American Airlines Financial Forecast<br>
+                          <span class="news-date">November 1, 2024</span>
+                        </div>
+                        <div class="news-item">
+                          Southwest Airlines Earnings Report<br>
+                          <span class="news-date">june 23, 2025</span>
+                        </div>
+                  </div>  
+                  <!-- /box2 end -->
+      
+              <div class="box3">
+              
+                        <section class="intro">
+                          <h1>Welcome to our Website!</h1>
+                          <p>Indian Airlines was a state-owned airline in India that operated from 1953 until 2011, when it became a division of Air India. It was known for connecting various domestic and international destinations, playing a significant role in the country's aviation history.</p>
+                          <p>There are several vlogs related to Indian Airlines, particularly focusing on Air India. You can find reviews of their economy and business class experiences, as well as insights into their service and ground experience. </p>
+                        </section>
+                      
+                      <section class="services">
+                        <ul>
+                            <li><strong>Aircraft</strong><br>An aircraft is a vehicle designed to fly by gaining support from the air, countering gravity through lift or thrust. This encompasses a wide range of machines, from airplanes and helicopters to gliders and balloons.</li>
+                            <button type="button" CLASS="rgt-btn">READ MORE</button><br>
+
+                            <li><strong>Charters</strong><br>For those based in Ahmedabad, it's noteworthy that Dunes Air, an Ahmedabad-based aviation company, has recently launched premium charter services, aiming to meet the growing demand for private aviation in the region .</li>
+                          </ul>
+                        <div class="btn-group">
+                          <button class="btn primary">FLEET</button>
+                          <button class="btn">RESERVATION</button>
+                        </div>
+                      </section>
+                    
+                          <section class="test1">
+                              <h3>Our Clients</h3>
+                              <div class="test-content">
+                                    <div class="client-text">
+                                       <p class="spaces"><strong>Indian Airlines</strong> was a state-owned airline in India that later became a division of Air India Limited before ultimately ceasing operations. <br><br>
+                                        It was based in Delhi and focused on domestic routes,  <span style="text-decoration: underline; text-decoration-color: blue; color: blue;">
+                                          international services
+                                        </span> to neighbouring countries in Asia and limited flights to the Middle East </p>
+                                    </div>
+                                  <div class="client-test">
+                                      <p>Indian Airlines was a state-owned airline in India that later became a division of Air India Limited before ultimately ceasing operationsbr
+                                        <br><br>
+                                      <span class="client-name">— Mr. Thomas Lloyd</span>
+                                  </div>
+                              </div>
+                          </section>
+              </div>
+              <!-- box3 end -->
+        </div>
+        <!-- ccc end -->
+  </div>  
+  <!-- box end -->
+  </main>
+  <footer>
+    <p>&copy; 2025 Lalit With Code. All rights reserved.</p>
+<p>
+  <a href="/privacy-policy">Privacy Policy</a> | 
+  <a href="/terms-of-service">Terms of Service</a>
+</p>
+<p>Follow us on: 
+  <a href="https://facebook.com" target="_blank">Facebook</a>, 
+  <a href="https://twitter.com" target="_blank">Twitter</a>, 
+  <a href="https://instagram.com" target="_blank">Instagram</a>
+</p>
+  </footer>
+</body>
+</html>
